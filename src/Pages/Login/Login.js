@@ -84,7 +84,6 @@ function Login() {
               className={`input ${empty.empty_password && "input_danger"}`}
               type="password"
               name="password"
-              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
               onChange={handleChange}
               placeholder="Password"
             />
